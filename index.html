@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#10141d">
+  <meta name="description" content="Uma brincadeira de torcedor com a rivalidade Gre-Nal: escolha seu lado.">
+  <title>Gre-Nal em pauta — escolha seu lado</title>
+  <style>
+    :root{color-scheme:dark;--bg:#10141d;--surface:#1a202c;--line:rgba(255,255,255,.13);--text:#f7f8fb;--muted:#c2c8d2;--red:#ef4253;--blue:#55aaff}
+    *{box-sizing:border-box}body{margin:0;min-height:100vh;display:grid;place-items:center;padding:28px;background:radial-gradient(ellipse at 20% 20%,rgba(239,66,83,.16),transparent 35%),radial-gradient(ellipse at 80% 80%,rgba(85,170,255,.16),transparent 35%),var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.6}.wrap{width:min(920px,100%)}.eyebrow{text-align:center;color:#c4cbd6;font-size:.78rem;letter-spacing:.18em;font-weight:800;text-transform:uppercase}h1{text-align:center;font-size:clamp(2.5rem,7vw,5.2rem);line-height:1;letter-spacing:-.06em;margin:12px 0 14px}h1 span{color:#c4cbd6}.intro{max-width:600px;margin:0 auto 36px;text-align:center;color:var(--muted)}.choices{display:grid;grid-template-columns:1fr 1fr;gap:18px}.choice{min-height:230px;display:flex;flex-direction:column;justify-content:space-between;padding:26px;border:1px solid var(--line);border-radius:22px;background:linear-gradient(145deg,rgba(255,255,255,.07),rgba(255,255,255,.02));text-decoration:none;transition:transform .2s,border-color .2s}.choice:hover{transform:translateY(-4px)}.choice.red:hover{border-color:var(--red)}.choice.blue:hover{border-color:var(--blue)}.tag{font-size:.78rem;letter-spacing:.14em;font-weight:850;color:var(--muted)}.choice h2{font-size:clamp(1.6rem,4vw,2.5rem);margin:12px 0 5px}.choice p{margin:0;color:var(--muted)}.choice.red h2{color:#ff7180}.choice.blue h2{color:#78bdff}.arrow{align-self:flex-end;font-size:1.5rem}footer{text-align:center;margin-top:26px;color:#8f99a8;font-size:.84rem}:focus-visible{outline:3px solid white;outline-offset:4px}@media(max-width:620px){.choices{grid-template-columns:1fr}.choice{min-height:190px}body{padding:22px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <p class="eyebrow">FUTEBOL · TORCIDA · RESENHA</p>
+    <h1>Gre-Nal <span>em pauta.</span></h1>
+    <p class="intro">Dois lados, muita paixão e uma rivalidade que rende assunto. Escolha qual página quer visitar — é tudo na brincadeira de torcedor.</p>
+    <nav class="choices" aria-label="Escolha um time">
+      <a class="choice blue" href="gremioomelho.html"><div><span class="tag">LADO TRICOLOR</span><h2>Grêmio Imortal</h2><p>História, conquistas e orgulho gremista.</p></div><span class="arrow" aria-hidden="true">↗</span></a>
+      <a class="choice red" href="interhorrivel.html"><div><span class="tag">LADO COLORADO</span><h2>Provocação ao Inter</h2><p>Uma resenha de torcedor sobre o rival.</p></div><span class="arrow" aria-hidden="true">↗</span></a>
+    </nav>
+    <footer>Feito por torcedor, para torcedor. Respeito sempre — rivalidade só na bola. ⚽</footer>
+  </main>
+</body>
+</html>
